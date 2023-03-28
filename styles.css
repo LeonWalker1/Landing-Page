@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E6E7E8;
+}
+
+#nav-bar {
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    background-color: #E6E7E8;
+    z-index: 999;
+}
+
+#header-img {
+    width: 20%;
+    margin-left: 35px;
+}
+
+
+.nav-link {
+    font-weight: 800;
+    font-size: 20px;
+    height: 30px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    padding: 10px;
+    font-family: 'Hanalei', cursive;
+    letter-spacing: 3px;
+}
+
+a:hover {
+    background-color: #8cc107b6;
+    border-radius: 30px;
+}
+
+main {
+    width: 100%;
+    position: relative;
+    top: 160px;
+}
+
+#form {
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+input[type=email] {
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8cc107b6;
+}
+
+input[type=submit]:hover {
+    background-color: #8cc107;
+}
+
+h1 {
+    position: absolute;
+    left: 350px;
+    top: 10px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Hanalei', cursive;
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Hanalei', cursive;
+}
+
+h2:hover {
+    color: #8cc107;
+}
+
+p {
+    font-family: 'Phudu', cursive;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+section {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 100px auto;
+}
+
+footer {
+    width: 50%;
+    display: flex;
+    height: 15vh;
+    margin: 0 auto;
+    position: absolute;
+    left: 380px;
+    bottom: -1080px;
+    justify-content: space-around;
+    background-color: #b7b8b9a1;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+}
+
+.foot-note {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.84);
+}
+
+@media all and (max-width: 600px) and (min-width: 300px) {
+    
+    #nav-bar {
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    #header-img {
+        width: 40%;
+        margin-left: 40px;
+    }
+}
